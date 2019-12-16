@@ -60,15 +60,15 @@ include CMakeFiles/DSA_CPP_Deng.dir/flags.make
 CMakeFiles/DSA_CPP_Deng.dir/main.cpp.o: CMakeFiles/DSA_CPP_Deng.dir/flags.make
 CMakeFiles/DSA_CPP_Deng.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/suyonghua/C++/DSA_CPP_Deng/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DSA_CPP_Deng.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DSA_CPP_Deng.dir/main.cpp.o -c /Users/suyonghua/C++/DSA_CPP_Deng/main.cpp
+	/usr/local/Cellar/gcc/9.2.0_1/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DSA_CPP_Deng.dir/main.cpp.o -c /Users/suyonghua/C++/DSA_CPP_Deng/main.cpp
 
 CMakeFiles/DSA_CPP_Deng.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA_CPP_Deng.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/suyonghua/C++/DSA_CPP_Deng/main.cpp > CMakeFiles/DSA_CPP_Deng.dir/main.cpp.i
+	/usr/local/Cellar/gcc/9.2.0_1/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/suyonghua/C++/DSA_CPP_Deng/main.cpp > CMakeFiles/DSA_CPP_Deng.dir/main.cpp.i
 
 CMakeFiles/DSA_CPP_Deng.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA_CPP_Deng.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/suyonghua/C++/DSA_CPP_Deng/main.cpp -o CMakeFiles/DSA_CPP_Deng.dir/main.cpp.s
+	/usr/local/Cellar/gcc/9.2.0_1/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/suyonghua/C++/DSA_CPP_Deng/main.cpp -o CMakeFiles/DSA_CPP_Deng.dir/main.cpp.s
 
 # Object files for target DSA_CPP_Deng
 DSA_CPP_Deng_OBJECTS = \

@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/DSA_CPP_Deng.dir/main.cpp.o  -o DSA_CPP_Deng 
+/usr/local/Cellar/gcc/9.2.0_1/bin/g++-9  -fopenmp -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/DSA_CPP_Deng.dir/main.cpp.o  -o DSA_CPP_Deng  -L/usr/local/lib -Wl,-rpath,/usr/local/lib -larmadillo 
