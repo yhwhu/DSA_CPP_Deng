@@ -10,7 +10,7 @@ vec addTwo_parallel(vec x, vec y){
 #pragma omp parallel for schedule(static) \
 private(i) shared(x,y,z)
     for(i=0; i < x.n_elem; i++)
-        z(i) = x(i) + y(i);
+        z(i) = x(i) + 2 * y(i);
     return z;
 }
 
